@@ -1,0 +1,13 @@
+echo # new-portfolio  README.md
+git init
+git add README.md
+git commit -m first commit
+git branch -M main
+git remote add origin httpsgithub.comabdulla-1996new-portfolio.git
+git push -u origin main
+
+
+
+git remote add origin https://github.com/abdulla-1996/new-portfolio.git
+git branch -M main
+git push -u origin main
