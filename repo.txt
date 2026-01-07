@@ -1,6 +1,6 @@
 echo # new-portfolio  README.md
 git init
-git add README.md
+  README.md
 git commit -m first commit
 git branch -M main
 git remote add origin httpsgithub.comabdulla-1996new-portfolio.git
