@@ -19,11 +19,11 @@
 
 
 header{
-    padding-top: 50px;background:url(../images/developer.png),url(../images/header_bg.png),#FFF8F3 ;background-repeat: no-repeat;background-position: top left,bottom right;
+    padding-top: 50px;background:url(../images/developer.png),url(../images/header_bg.png),#FFF8F3 ;background-repeat: no-repeat;background-position: 23px 38px,bottom right;
 }
 
 nav{
-   width: 74%;max-width: 1140px;
+   width: 71%;max-width: 1139px;
    margin: 0px auto;display: flex;justify-content: space-between;align-items: center;
 }
 
@@ -35,7 +35,7 @@ nav .menu a{
   font-size: 20px;color: #474747;text-decoration: none;
 }
 .btn{
-  background-color: #FD6E0A;border: none;padding: 18px 35px;border-radius: 5px;font-size: 20px;font-weight: bold;color: white;cursor: pointer;
+  background-color: #FD6E0A;border: none;padding: 18px 28px;border-radius: 5px;font-size: 20px;font-weight: bold;color: white;cursor: pointer;
 }
 
 #banner{
@@ -135,4 +135,32 @@ max-width: 585px;vertical-align: middle;
 .resume-card .card-text{
        font-size: 20px; line-height: 28px; color: #757575;
 }
+
+.button-center{
+      text-align: center;
+}
+
+footer{
+     margin-top: 130px; background-color: #FFF8F3; padding: 130px 0; 
+}
+footer .footer-container{
+       width: 74%; max-width: 1140px; margin: 0 auto; display: flex;gap: 116px; 
+}
+ .footer-container .social{
+      max-width: 562px;
+ }
+ .footer-container h2{
+          color: #181818; font-size: 35px; margin-bottom: 30px;      
+ }
+ .footer-container .social p{
+           color: #474747;line-height: 28px;margin-bottom: 20px;
+ }
+ .icons a{
+         margin-right: 24px;
+ }
+ .footer-container form input[type="text"],.footer-container form textarea{
+            width: 461px; padding: 18px 31px; margin-bottom: 24px; border: none; border-radius: 5px; color: #757575;
+ }
+  
+          
 
